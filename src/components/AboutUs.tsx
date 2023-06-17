@@ -1,5 +1,5 @@
 import React from "react";
-import aboutBannet from "../assets/images/about-banner.jpg";
+import aboutBannet from "../assets/images/Group 5.png";
 
 export default function AboutUs() {
   return (
@@ -7,20 +7,17 @@ export default function AboutUs() {
       <div className="container">
         <div
           className="about-banner img-holder"
-          style={{ width: 720, height: 960 }}
+          style={{ '--width': 980, '--height': 960 } as React.CSSProperties}
         >
           <img
             src={aboutBannet}
-            width="720"
+            width="920"
             height="960"
             loading="lazy"
             alt="about banner"
             className="img-cover"
           ></img>
 
-          <button className="play-btn" aria-label="Play video">
-            {/* <ion-icon name="play" aria-hidden="true"></ion-icon> */}
-          </button>
         </div>
 
         <div className="about-content">

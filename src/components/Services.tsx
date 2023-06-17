@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function Services() {
     return (
-
         <section className="section service" id="service" aria-label="service">
             <div className="container">
 

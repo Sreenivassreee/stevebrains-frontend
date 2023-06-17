@@ -86,6 +86,9 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+
+  --width: 510px;
+  --height: 700px;
 }
 
 /*-----------------------------------*\
@@ -264,7 +267,7 @@ body {
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
-  background-color: var(--light-gray);
+  background-color: transparent;
 }
 
 .img-cover {
@@ -482,9 +485,10 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 150px;
+  padding: 5px;
   z-index: 1;
   transition: var(--transition-2);
+  text-align: left;
 }
 
 .project-card:is(:hover, :focus-within) .card-content {
@@ -746,7 +750,7 @@ textarea.input-field {
 .contact-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   gap: 30px 25px;
 }
 
@@ -1226,6 +1230,7 @@ textarea.input-field {
 
   .project-card .card-content {
     padding: 30px;
+    text-align: center;
   }
 
   .project-card .card-subtitle {

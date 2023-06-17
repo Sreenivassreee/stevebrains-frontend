@@ -1,4 +1,5 @@
 import React from "react";
+import MailIcon from '@mui/icons-material/Mail';
 
 export default function ContactUs() {
   return (
@@ -89,7 +90,7 @@ export default function ContactUs() {
             <li className="contact-item">
               <div className="contact-card">
                 <div className="card-icon">
-                  {/* <ion-icon name="mail-outline" aria-hidden="true"></ion-icon> */}
+                  <MailIcon />
                 </div>
 
                 <div className="card-content">
@@ -105,23 +106,6 @@ export default function ContactUs() {
               </div>
             </li>
 
-            <li className="contact-item">
-              <div className="contact-card">
-                <div className="card-icon">
-                  {/* <ion-icon name="map-outline" aria-hidden="true"></ion-icon> */}
-                </div>
-
-                <div className="card-content">
-                  <h3 className="h3 card-title">Visit Here</h3>
-
-                  <address className="card-address">
-                    27 Division St, New York,
-                    <br />
-                    NY 10002, USA
-                  </address>
-                </div>
-              </div>
-            </li>
 
             <li className="contact-item">
               <div className="contact-card">
