@@ -1,12 +1,15 @@
 import React from 'react';
 import "../../src/components/style.css"
+import staveBrains from "../../src/assets/images/Brainslogo.png"
 
 const Header = () => {
   return (
     <header className="header" data-header>
       <div className="container">
 
-        <a href="#" className="logo">InnoHub</a>
+        <a href="#" className="logo">
+          <img src={staveBrains} alt="" />
+        </a>
 
         <nav className="navbar container" data-navbar>
           <ul className="navbar-list">
