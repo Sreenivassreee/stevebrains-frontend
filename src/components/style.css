@@ -518,6 +518,7 @@ body {
   position: relative;
   border-radius: var(--radius-5);
   overflow: hidden;
+  
   margin-block-end: 25px;
 }
 

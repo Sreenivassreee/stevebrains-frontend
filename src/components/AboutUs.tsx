@@ -7,7 +7,7 @@ export default function AboutUs() {
       <div className="container">
         <div
           className="about-banner img-holder"
-          style={{ '--width': 980, '--height': 960 } as React.CSSProperties}
+          style={{ "--width": 980, "--height": 960 } as React.CSSProperties}
         >
           <img
             src={aboutBannet}
@@ -17,7 +17,6 @@ export default function AboutUs() {
             alt="about banner"
             className="img-cover"
           ></img>
-
         </div>
 
         <div className="about-content">
