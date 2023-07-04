@@ -1,5 +1,4 @@
 import React from "react";
-import aboutBannet from "../assets/images/Group 5.png";
 
 export default function AboutUs() {
   return (
@@ -7,12 +6,14 @@ export default function AboutUs() {
       <div className="container">
         <div
           className="about-banner img-holder"
-          style={{ "--width": 980, "--height": 960 } as React.CSSProperties}
+          style={{ "--width": 1200, "--height": 1200 } as React.CSSProperties}
         >
           <img
-            src={aboutBannet}
-            width="920"
-            height="960"
+            src={
+              "https://res.cloudinary.com/dlvfsbqkn/image/upload/v1688497020/SteveBrains/Group_8_wgopkk.png"
+            }
+            width="830"
+            height="910"
             loading="lazy"
             alt="about banner"
             className="img-cover"
@@ -23,18 +24,26 @@ export default function AboutUs() {
           <h2 className="h2 section-title">About Us</h2>
 
           <p className="section-text">
-            Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In
-            sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et
-            tiram.
+            Empowering businesses, igniting innovation: We not only deliver
+            exceptional software solutions, but also embark on our own projects,
+            fueling our entrepreneurial spirit and driving positive change in
+            various industries. From client collaborations to in-house ventures,
+            we are dedicated to pushing boundaries and making a lasting impact
+            through our innovative ideas and unwavering passion.
           </p>
 
           <h3 className="h3">Who We Are</h3>
 
           <p className="section-text">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
+            At our core, we are a diverse and talented group of developers
+            scattered across the world, each residing in different cities but
+            united by our passion for crafting exceptional software solutions.
+            Our virtual collaboration transcends geographical boundaries as we
+            seamlessly work together, leveraging our collective expertise to
+            deliver cutting-edge products that drive innovation and transform
+            industries. With a global network of brilliant minds, we possess the
+            unique ability to harness the power of technology and turn ideas
+            into reality.
           </p>
 
           <h3 className="h3">Our Success</h3>
@@ -44,37 +53,41 @@ export default function AboutUs() {
               {/* <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> */}
 
               <p className="section-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                With a track record of accomplishment, we are proud to have
+                successfully completed two groundbreaking products, leaving two
+                satisfied clients in our wake. These milestones stand as a
+                testament to our unwavering commitment to excellence and our
+                ability to deliver software solutions that exceed expectations.
               </p>
             </li>
 
-            <li className="about-item">
-              {/* <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> */}
-
+            {/* <li className="about-item">
+          
               <p className="section-text">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </p>
-            </li>
+            </li> */}
 
-            <li className="about-item">
-              {/* <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> */}
-
-              <p className="section-text">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classNameical Latin literature.
-              </p>
-            </li>
+            {/* <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon> */}
+            {/* <li className="about-item">
+                <p className="section-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classNameical Latin literature.
+                </p>
+              </li> */}
           </ul>
 
           <h3 className="h3">Our Mission</h3>
 
           <p className="section-text">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores et quas molestias excepturi sint occaecati cupiditate non
-            provident, similique sunt in.
+            At SteveBrains, our mission is to empower businesses with the
+            transformative potential of technology. We strive to be the
+            catalysts of growth, innovation, and success in an ever-evolving
+            digital landscape. By leveraging our deep expertise and staying at
+            the forefront of technological advancements, we develop innovative
+            software solutions that solve complex challenges, streamline
+            processes, and unlock new opportunities.
           </p>
         </div>
       </div>

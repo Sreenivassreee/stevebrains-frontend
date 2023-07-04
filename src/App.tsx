@@ -6,15 +6,17 @@ import Services from "./components/Services";
 import RecentProjects from "./components/RecentProjects";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
+import Team from "./components/Team";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Home />
-      <Services />
-      <RecentProjects />
+      {/* <Services /> */}
+      {/* <RecentProjects /> */}
       <AboutUs />
+      <Team />
       <ContactUs />
     </div>
   );

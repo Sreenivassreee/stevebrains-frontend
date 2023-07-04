@@ -254,6 +254,7 @@ body {
 .section-title,
 .section-text {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .section-text {
@@ -518,7 +519,7 @@ body {
   position: relative;
   border-radius: var(--radius-5);
   overflow: hidden;
-  
+
   margin-block-end: 25px;
 }
 
@@ -757,6 +758,7 @@ textarea.input-field {
 
 .contact-item {
   min-width: 100%;
+  align-items: center;
 }
 
 .contact-card {
@@ -764,8 +766,8 @@ textarea.input-field {
   padding: 20px;
   border-radius: var(--radius-2);
   box-shadow: var(--shadow-1);
-  display: flex;
-  align-items: flex-start;
+  /* display: flex; */
+  align-items: center;
   gap: 15px;
 }
 
@@ -895,6 +897,7 @@ textarea.input-field {
 
   .contact-item {
     min-width: calc(50% - 18px);
+    align-items: center;
   }
 }
 
@@ -965,6 +968,7 @@ textarea.input-field {
 
   .contact-item {
     min-width: calc(50% - 12.5px);
+    align-items: center;
   }
 }
 
@@ -1169,6 +1173,7 @@ textarea.input-field {
 
   .contact-item {
     min-width: calc(33.33% - 16.66px);
+    align-items: center;
   }
 
   .contact-card {
